@@ -1,4 +1,5 @@
 .virtualenv
 .vscode
+.env
 *.pyc
 *.sqlite3
