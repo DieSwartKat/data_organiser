@@ -6,5 +6,7 @@ Main
 {% endblock %}
 
 {% block content %}
-<p>{{data}}</p>
+  {% for x  in data%}
+    <li>{{x.part}} - {{x.prt_class}} - {{x.mat_desc}}</li>
+  {% endfor%}
 {% endblock %}
