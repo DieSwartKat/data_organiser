@@ -1,2 +1,4 @@
 .virtualenv
 .vscode
+*.pyc
+*.sqlite3
